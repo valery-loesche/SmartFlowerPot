@@ -1,0 +1,22 @@
+
+# SmartFlowerPot
+
+This is a simple automated plant monitor built with PlatformIO and Arduino.
+
+Features:
+- Reads a water level sensor to detect when the reservoir is low.
+- Reads a soil wetness sensor to detect when the plant needs watering.
+- Controls a pump to water the plant automatically when the soil is dry.
+- Displays system status messages on a connected display.
+
+How it works:
+- If the water level is below the low threshold, the system shows a refill warning and keeps the pump off.
+- If the reservoir has enough water but the soil is dry, it turns the pump on to water the plant.
+- If both water level and soil moisture are healthy, it turns the pump off and displays a healthy status.
+
+Usage:
+- Build and upload the project with PlatformIO.
+- Open the serial monitor at 9600 baud to see water level and wetness readings.
+
+Adjust the threshold values in `src/main.cpp` as needed for your sensors.
+        
