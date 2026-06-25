@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "c:/Users/12345/Documents/PlatformIO/Projects/SmartFlowerPot/include",
-                "c:/Users/12345/Documents/PlatformIO/Projects/SmartFlowerPot/src",
+                "c:/Users/12345/Documents/PlatformIO/SmartFlowerPot/SmartFlowerPot/include",
+                "c:/Users/12345/Documents/PlatformIO/SmartFlowerPot/SmartFlowerPot/src",
                 "C:/Users/12345/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
                 "C:/Users/12345/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
                 "C:/Users/12345/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
@@ -25,8 +25,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/12345/Documents/PlatformIO/Projects/SmartFlowerPot/include",
-                    "c:/Users/12345/Documents/PlatformIO/Projects/SmartFlowerPot/src",
+                    "c:/Users/12345/Documents/PlatformIO/SmartFlowerPot/SmartFlowerPot/include",
+                    "c:/Users/12345/Documents/PlatformIO/SmartFlowerPot/SmartFlowerPot/src",
                     "C:/Users/12345/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
                     "C:/Users/12345/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
                     "C:/Users/12345/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
