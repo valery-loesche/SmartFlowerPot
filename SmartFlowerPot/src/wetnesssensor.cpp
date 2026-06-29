@@ -4,14 +4,14 @@
 #include "analogSensor.h"
 #include <avr/io.h>
 
-int pin = 1; // Example pin for the wetness sensor
+int wetnessPin = 1; // Example pin for the wetness sensor
 
 void wetnessSensorSetup() {
     //set pin as input 
-    DDRC &= ~(1 << pin); // Set pin as input
+    DDRC &= ~(1 << wetnessPin); // Set pin as input
     analogSensorSetup();
 }
 
 int readWetnessSensor() {
-    return readAnalogSensor(pin);
+    return readAnalogSensor(wetnessPin);
 }

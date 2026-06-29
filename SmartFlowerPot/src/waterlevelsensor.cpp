@@ -4,14 +4,14 @@
 #include "analogSensor.h"
 #include <avr/io.h>
 
-int pin = 0; // Example pin for the water level sensor
+int waterLevelPin = 0; // Example pin for the water level sensor
 
 void waterLevelSensorSetup() {
     //set pin as input
-    DDRC &= ~(1 << pin); // Set pin as input
+    DDRC &= ~(1 << waterLevelPin); // Set pin as input
     analogSensorSetup();
 }
 
 int readWaterLevelSensor() {
-    return readAnalogSensor(pin);
+    return readAnalogSensor(waterLevelPin);
 }

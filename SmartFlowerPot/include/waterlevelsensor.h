@@ -3,6 +3,6 @@
 #define WATER_LEVEL_SENSOR_H
 
 void waterLevelSensorSetup();
-int readWaterLevel();
+int readWaterLevelSensor();
 
 #endif // WATER_LEVEL_SENSOR_H

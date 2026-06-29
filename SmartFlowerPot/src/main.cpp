@@ -25,13 +25,13 @@ void loop() {
 
   if (waterLevel < 300) {
     displayStatus("Water level low! Please refill.");
-    pumpOff();
+    stopWatering();
   } else if (wetness < 300) {
     displayStatus("Soil is dry! Watering the plant.");
-    pumpOn();
+    waterPlant();
   } else {
     displayStatus("Plant is healthy!");
-    pumpOff();
+    stopWatering();
   }
 
   delay(5000); // Wait for 5 seconds before the next reading

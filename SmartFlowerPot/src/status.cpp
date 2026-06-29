@@ -4,9 +4,9 @@
 #include "oled.h"
 
 void statusSetup() {
-    oledSetup();
+    clear_oled();
 }
 
 void displayStatus(const char* message) {
-    displayMessage(message);
+    oled_write_P(PSTR("%s"), message);
 }

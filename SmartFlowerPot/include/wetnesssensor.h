@@ -3,6 +3,6 @@
 #define WETNESS_SENSOR_H
 
 void wetnessSensorSetup();
-int readWetness();
+int readWetnessSensor();
 
 #endif // WETNESS_SENSOR_H
